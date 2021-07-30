@@ -17,6 +17,9 @@
 #include "gflbans-core/bans.sp"
 #include "gflbans-core/comms.sp"
 
+#undef REQUIRE_PLUGIN
+#include "gflbans-core/adminmenu.sp"
+
 /* ===== Plugin Info ===== */
 public Plugin myinfo =
 {
